@@ -9,6 +9,8 @@ import { CharacterSelectionComponent } from './components/character-selection/ch
 import { CharacterCreationComponent } from './components/character-creation/character-creation.component';
 import { BattleComponent } from './components/battle/battle.component';
 
+import { FormsModule } from '@angular/forms';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +22,8 @@ import { BattleComponent } from './components/battle/battle.component';
   ],
   imports: [
     BrowserModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
